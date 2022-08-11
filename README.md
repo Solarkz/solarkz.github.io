@@ -24,6 +24,7 @@ Contiene un menu de navegacion con 5 enlaces internos*, y 2 enlaces externos (tw
 - menu de navegacion
 - principal
 - iframe
+ 
 (ejemplo)
-Eb un futuro... 
+En un futuro... 
 Enlazar el proyecto enlazar de un servicio web para registrar datos en una base de datos y calcular tiempo de procesos de la empresa
