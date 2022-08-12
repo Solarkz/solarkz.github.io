@@ -1,0 +1,18 @@
+body{
+    background-image: url(/images/image4.jpg);
+   
+
+} 
+    /*background-image: ul(/images/.jpg);-->*/
+
+img {
+    opacity: 0.8;
+    margin: 20px 50px;
+}
+h5 {
+    color: rgb(247, 221, 221);
+    margin: 20px 0px;
+}
+table {
+    margin: 20px 0px;
+}

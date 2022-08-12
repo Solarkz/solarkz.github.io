@@ -4,38 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Proyecto final</title>
+    <link rel="shortcut icon" href="/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <script src="dist/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body>
     <header>
-        <nav>
-            <a href="pages/home.html">
-                Inicio
-            </a>
-            <a href="pages/p1.html">
-                Pagina 1
-            </a>
-            <a href="pages/p2.html">
-                Pagina 2
-            </a>
-            <a href="pages/p3.html">
-                Pagina 3
-            </a>
-            <a href="pages/p4.html">
-                Pagina 4
-            </a>
-            <a href="pages/p5.html">
-                Pagina 5
-            </a>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">C B</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="/pages/home.html" target="PrincipalFrame">Inicio</a>
+                    <a class="nav-link" href="/pages/register.html" target="PrincipalFrame">Registrarme</a>
+                    <a class="nav-link" href="/pages/login.html" target="PrincipalFrame">Iniciar sesión</a>
+                    <a class="nav-link" href="/pages/para ordenar.html" target="PrincipalFrame">Para ordenar</a>
+                    <a class="nav-link" href="/pages/contacto.html" target="PrincipalFrame">Contacto</a>
+                    <a class="nav-link disabled">Cerrar sesión</a>
+                </div>
+              </div>
+            </div>
+            
+          </nav>
+          
     </header>
     <main>
-        <iframe src="pages/home.html" frameborder="0" name="ifmain"></iframe>
-
+        <iframe src="/pages/home.html" class="PrincipalFrame" frameborder="0" name="PrincipalFrame"></iframe>
     </main>
     <footer>
-        &copy; 2022 | Carlos Longorio | Hambu.
-    </footer>  
+        <p>&copy; 2022 | Comando burguer | Todos los derechos reservados</p>
+        <p>
+            <a href="https://twitter.com/hamburguesas" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/hamburguesasfizz" target="_blank">facebook</a>
+            <a href="https://www.instagram.com/hamburguesasextremasoficial/" target="_blank">Instragram</a>
+        </p>
+    </footer>
 </body>
 </html>

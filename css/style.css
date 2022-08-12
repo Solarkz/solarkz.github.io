@@ -1,0 +1,17 @@
+.PrincipalFrame{
+    width: 50%;
+    height: calc(100vh - 65px);
+}
+
+body{
+    background-image: url(/images/image3.jpg);
+} 
+
+footer{
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
